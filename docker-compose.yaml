@@ -28,6 +28,7 @@ services:
 #     - "8443:443"  # If https is enabled, cancel the comment.
     volumes:
       - ./opt/seafile-data:/shared   # Requested, specifies the path to Seafile data persistent store.
+      - ./opt/seafile/seafile-data:/shared/seafile/seafile-data      
     environment:
       - DB_HOST=db
       - DB_ROOT_PASSWD=db_dev  # Requested, the value shuold be root's password of MySQL service.
