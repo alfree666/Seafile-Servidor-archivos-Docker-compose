@@ -9,7 +9,7 @@ Password: asecret
 
 # Integración con ONLYOFFICE
 
-Después de instalar Seafile deberemos editar el archivo "seahub_settings.py" en nuestro servidor.
+Después de instalar Seafile deberemos editar el archivo "seahub_settings.py" en nuestro servidor. Ruta: /seafile/opt/seafile-data/seafile/conf/
 
 -Enable Only Office-
 
@@ -25,7 +25,7 @@ ONLYOFFICE_EDIT_FILE_EXTENSION = ('doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx')
 
 ONLYOFFICE_JWT_SECRET = 'secret'
 
-ONLYOFFICE_FORCE_SAVE = True 
+ONLYOFFICE_FORCE_SAVE = True
 
 
 
