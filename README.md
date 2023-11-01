@@ -23,7 +23,7 @@ ONLYOFFICE_FILE_EXTENSION = ('doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx', 'odt',
 
 ONLYOFFICE_EDIT_FILE_EXTENSION = ('doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx')
 
-ONLYOFFICE_JWT_SECRET = 'secret'
+ONLYOFFICE_JWT_SECRET = 'my_secret'
 
 ONLYOFFICE_FORCE_SAVE = True
 
